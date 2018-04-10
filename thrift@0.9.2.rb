@@ -2,7 +2,7 @@ class ThriftAT092 < Formula
     desc "Framework for scalable cross-language services development"
     homepage "https://thrift.apache.org"
     url "https://archive.apache.org/dist/thrift/0.9.2/thrift-0.9.2.tar.gz"
-    sha256 "02f78b158da795ea89a26ce41964fbe562cc4235"
+    sha256 "cef50d3934c41db5fa7724440cc6f10a732e7a77fe979b98c23ce45725349570"
   
     bottle do
       cellar :any
