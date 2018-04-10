@@ -10,11 +10,11 @@ class ThriftAT092 < Formula
   
     keg_only :versioned_formula
   
-    option "with-haskell", "Install Haskell binding"
-    option "with-erlang", "Install Erlang binding"
+    option "without-haskell", "Install Haskell binding"
+    option "without-erlang", "Install Erlang binding"
     option "with-java", "Install Java binding"
-    option "with-perl", "Install Perl binding"
-    option "with-php", "Install Php binding"
+    option "without-perl", "Install Perl binding"
+    option "without-php", "Install Php binding"
   
     depends_on "autoconf" => :build
     depends_on "automake" => :build
